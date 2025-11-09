@@ -1,6 +1,10 @@
 # Remove To Trash (rmt)
 
-script for moving files into trash insted of premanently deleting them.
+__script for moving files into trash insted of premanently deleting them.__
+
+
+*__using__:*
+------------
 
 ```bash
 NAME
@@ -13,4 +17,22 @@ SYNOPSIS
 OPTIONS
     -h, --help
         show this message
+```
+
+*__how to install__:*
+---------
+
+```bash
+# clone this repo
+git clone https://github.com/NorthGiK/remove_to_trash.git
+
+# go to this repo
+cd remove_to_trash
+
+# creating scripts executable
+chmod +x ./rmt.py
+chmod +x ./install.sh
+
+# execute script
+./install.sh
 ```
